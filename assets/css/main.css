@@ -1,0 +1,160 @@
+
+body{
+  margin:0;
+  padding: 0;
+}
+
+/* Style Header */
+ul{
+  list-style: none;
+  padding-right: 0.7em;
+}
+
+.mainMenu{
+  background-color: #192028;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  padding-left: 1.7em;
+  color: #fff; 
+}
+
+.mainMenu h4 {
+  font-family: 'Anton', sans-serif; 
+  padding-right: 0.9em; 
+  margin-top: 0;
+}
+
+.mainMenu a{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.mainMenu li a:hover {
+  background-color: transparent;
+  color: #FB592D; 
+}
+
+.boxMenu {
+  display: inline-block;
+  text-align: right;
+  border-right: 0.4em solid #FB592D; 
+}
+
+.logoContainer{
+  display: inline-block;
+}
+/* End Style Header */
+
+/* Style Work Section */
+.works {
+  background-color: #F5F1E4;
+  text-align: left;
+  font-family: 'Anton', sans-serif;
+  padding-top: 3em;
+  padding-bottom: 3em; 
+}
+
+.works h4, .skills h4 {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+  color: #FB592D; 
+}
+.barra{
+  margin:0;
+  padding-left: 0;
+}
+.works hr {
+  border: 0.4em solid;
+  width: 2em;
+  margin: 0; 
+  color: #FB592D;
+}
+
+.rowOfWorks {
+  padding-top: 3em;
+  padding-bottom: 3em; 
+}
+
+.workBox {
+  border: none;
+  padding-top: 1em;
+  padding-bottom: 0.5em; 
+}
+.titleBox{
+  padding-left: 0;
+}
+
+.workBox h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5em;
+}
+
+.workBox p {
+  font-family: 'Montserrat', sans-serif; 
+}
+/* End Style Work Section */
+
+/* Style About Section */
+.about {
+  background-color: #FB592D;
+  color: #F5F1E4;
+  font-family: 'Anton', sans-serif;
+  padding-top: 3em;
+  padding-bottom: 3em; 
+  text-align: left;
+}
+
+.about h4 {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+}
+
+.about hr {
+  border: 0.4em solid;
+  width: 2em;
+  margin: 0; 
+}
+
+.rowOfAbout {
+  padding-top: 3em;
+  padding-bottom: 3em; 
+}
+
+.aboutBox {
+  background-color: #FB592D;
+  border: 0.1em solid #F5F1E4; 
+}
+
+.aboutBox p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1em;
+  text-align: justify; 
+}
+
+.perfilBox {
+  background-color: transparent;
+  margin: 0.5em;
+  padding: 0.9em; 
+}
+/* End Style About Section */
+
+/* Style Skill Section */
+.skills {
+  background-color: #192028;
+  color: #FB592D;
+  font-family: 'Anton', sans-serif;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin-left: 0; 
+  text-align: left;
+}
+
+.skills hr {
+  border: 0.4em solid;
+  width: 2em;
+  margin: 0; 
+}
+
+
+/* End Style Skill Section */
