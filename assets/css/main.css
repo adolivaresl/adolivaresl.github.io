@@ -55,7 +55,7 @@ ul{
   padding-bottom: 3em; 
 }
 
-.works h4, .skills h4 {
+.works h4, .skills h4{
   font-size: 2.5em;
   margin-bottom: 0.2em;
   color: #FB592D; 
@@ -139,8 +139,8 @@ ul{
 }
 /* End Style About Section */
 
-/* Style Skill Section */
-.skills {
+/* Style Tools Section */
+.tools {
   background-color: #192028;
   color: #FB592D;
   font-family: 'Anton', sans-serif;
@@ -150,11 +150,234 @@ ul{
   text-align: left;
 }
 
-.skills hr {
+.tools h4 {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+  color: #fff;
+}
+
+.tools hr {
   border: 0.4em solid;
   width: 2em;
   margin: 0; 
+    color: #fff;
 }
 
+.tools i{
+  font-size: 4em;
+}
 
-/* End Style Skill Section */
+.iconBox{
+  margin-top: 1.5em;
+}
+
+.rowIconBoxF{
+  margin-top:2em;
+}
+
+.rowIconBoxT{
+  margin-bottom: 2em;
+}
+/* End Style Tools Section */
+
+/* Style Contact Section */
+.contact{
+  background-color: #F5F1E4;
+  text-align: left;
+  font-family: 'Anton', sans-serif;
+  padding-top: 3em;
+  padding-bottom: 3em; 
+}
+
+.contact h4{
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+  color:  #192028;
+}
+
+.contact hr {
+  border: 0.4em solid;
+  width: 2em;
+  margin: 0; 
+    color:  #192028;
+}
+
+.businessCard{
+  padding-top: 3em;
+  padding-bottom: 3em; 
+
+}
+/* End Style Contact Section */
+
+/* Interactive Bussines Card */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+/* CENTERING */
+/*.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;*/
+  /* bring your own prefixes */
+ /* transform: translate(-50%, -50%);
+}*/
+
+/* /end */
+/*body {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/326221/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}*/
+
+h3 {
+  position: relative;
+  left: 45%;
+}
+
+/* THE FRONT */
+.front {
+  background-image: url(./../img/Logo-personal.jpg);
+  background-size: 50%;
+  background-color:   #192028;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* /end */
+/* THE BACK   */
+.back {
+  background-image: url(./../img/bussines-card-B.jpg);
+  background-size: 600px 350px;
+
+
+}
+.back p, .back .font-a-icons {
+  color: #192028;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 30%;
+  line-height: 90%;
+}
+.back h2 {
+  margin-top: 5%;
+  color:   #192028;
+  font-family: 'Anton', sans-serif;
+  margin-left: 30%;
+  line-height: 90%;
+}
+.back p {
+  font-size: 16px;
+  padding-bottom: 15px;
+  width: 35%;
+  border-bottom: 2px solid #FB592D;
+}
+.back .bold {
+  font-weight: bold;
+}
+.back .font-a-icons {
+  margin-top: 25px;
+}
+.back .font-a-icons .icon-group {
+  margin-top: 8px;
+}
+.back .font-a-icons span, .back .font-a-icons .link, .back .font-a-icons .fa, .back .font-a-icons a {
+  color:    #192028;
+}
+.back .font-a-icons .fa {
+  font-size: 18px;
+}
+.back .font-a-icons span, .back .font-a-icons a {
+  font-size: 16px;
+}
+.back .font-a-icons a, .back .font-a-icons .website {
+  text-decoration: none;
+}
+.back .font-a-icons a:hover, .back .font-a-icons .website:hover {
+  color:    #192028;
+}
+.icon-group span{
+  line-height: 2em;
+}
+
+.back .icon-box {
+  position: relative;
+  color:#FB592D;
+  font-size: 24px;
+  height: 45px;
+  width: 45px;
+  padding: 5px;
+  top: 75px;
+  left: 30%;
+  display: inline-block;
+  border: 2px solid #FB592D;
+  margin: 5px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+.back .icon-box:hover {
+  box-shadow: inset 0 50px 0 0     #192028;
+  color: #fff;
+  border: 2px solid     #192028;
+}
+
+/* /end */
+/* THE FLIP EFFECT */
+/* entire container, keeps perspective */
+.flip-container {
+  perspective: 1000px;
+}
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.flip-container, .front, .back {
+  height: 350px;
+  width: 600px;
+}
+
+.flipper {
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.front {
+  z-index: 2;
+  /* firefox 31 */
+  transform: rotateY(0deg);
+}
+
+.back {
+  background-color: #000;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.vertical.flip-container {
+  position: relative;
+}
+
+.vertical .back {
+  transform: rotateX(180deg);
+}
+
+.vertical.flip-container .flipper {
+  transform-origin: 100% 400x;
+}
+
+.vertical.flip-container:hover .flipper {
+  transform: rotateX(-180deg);
+}
+
+/* End Interactive bussines card */
