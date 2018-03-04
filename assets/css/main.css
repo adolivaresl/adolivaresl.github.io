@@ -2,6 +2,7 @@
 body{
   margin:0;
   padding: 0;
+  width: 100%;  
 }
 
 /* Style Header */
@@ -12,9 +13,10 @@ ul{
 
 .mainMenu{
   background-color: #192028;
-  padding-top: 3em;
-  padding-bottom: 2em;
+  padding-top: 3.5em;
+  padding-bottom: 2.5em;
   padding-left: 1.7em;
+  margin-right: 0px;
   color: #fff; 
 }
 
@@ -40,19 +42,17 @@ ul{
   text-align: right;
   border-right: 0.4em solid #FB592D; 
 }
-
-.logoContainer{
-  display: inline-block;
-}
 /* End Style Header */
 
 /* Style Work Section */
 .works {
   background-color: #F5F1E4;
+  background-attachment: fixed;
   text-align: left;
   font-family: 'Anton', sans-serif;
   padding-top: 3em;
   padding-bottom: 3em; 
+  margin-right:0;
 }
 
 .works h4, .skills h4{
@@ -60,10 +60,12 @@ ul{
   margin-bottom: 0.2em;
   color: #FB592D; 
 }
+
 .barra{
   margin:0;
   padding-left: 0;
 }
+
 .works hr {
   border: 0.4em solid;
   width: 2em;
@@ -81,9 +83,6 @@ ul{
   padding-top: 1em;
   padding-bottom: 0.5em; 
 }
-.titleBox{
-  padding-left: 0;
-}
 
 .workBox h3 {
   font-family: 'Anton', sans-serif;
@@ -93,16 +92,22 @@ ul{
 .workBox p {
   font-family: 'Montserrat', sans-serif; 
 }
+
+.titleBox{
+  padding-left: 0;
+}
+ 
 /* End Style Work Section */
 
 /* Style About Section */
 .about {
   background-color: #FB592D;
-  color: #F5F1E4;
+  color:#fff;
   font-family: 'Anton', sans-serif;
   padding-top: 3em;
   padding-bottom: 3em; 
   text-align: left;
+  margin-right:0;
 }
 
 .about h4 {
@@ -123,7 +128,7 @@ ul{
 
 .aboutBox {
   background-color: #FB592D;
-  border: 0.1em solid #F5F1E4; 
+  border: 0.1em solid #fff; 
 }
 
 .aboutBox p {
@@ -146,7 +151,7 @@ ul{
   font-family: 'Anton', sans-serif;
   padding-top: 3em;
   padding-bottom: 3em;
-  margin-left: 0; 
+  margin: 0; 
   text-align: left;
 }
 
@@ -176,7 +181,7 @@ ul{
 }
 
 .rowIconBoxT{
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 /* End Style Tools Section */
 
@@ -187,6 +192,7 @@ ul{
   font-family: 'Anton', sans-serif;
   padding-top: 3em;
   padding-bottom: 3em; 
+  margin-right:0;
 }
 
 .contact h4{
@@ -199,40 +205,16 @@ ul{
   border: 0.4em solid;
   width: 2em;
   margin: 0; 
-    color:  #192028;
+  color:  #192028;
 }
+/* End Style Contact Section */
 
+/* Interactive Bussines Card */
 .businessCard{
   padding-top: 3em;
   padding-bottom: 3em; 
 
 }
-/* End Style Contact Section */
-
-/* Interactive Bussines Card */
-@import url(https://fonts.googleapis.com/css?family=Lato);
-/* CENTERING */
-/*.centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;*/
-  /* bring your own prefixes */
- /* transform: translate(-50%, -50%);
-}*/
-
-/* /end */
-/*body {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/326221/bg.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-}*/
-
-h3 {
-  position: relative;
-  left: 45%;
-}
-
 /* THE FRONT */
 .front {
   background-image: url(./../img/Logo-personal.jpg);
@@ -241,21 +223,21 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
 }
-
 /* /end */
+
 /* THE BACK   */
 .back {
   background-image: url(./../img/bussines-card-B.jpg);
   background-size: 600px 350px;
-
-
 }
+
 .back p, .back .font-a-icons {
   color: #192028;
   font-family: 'Montserrat', sans-serif;
   margin-left: 30%;
   line-height: 90%;
 }
+
 .back h2 {
   margin-top: 5%;
   color:   #192028;
@@ -263,36 +245,46 @@ h3 {
   margin-left: 30%;
   line-height: 90%;
 }
+
 .back p {
   font-size: 16px;
   padding-bottom: 15px;
   width: 35%;
   border-bottom: 2px solid #FB592D;
 }
+
 .back .bold {
   font-weight: bold;
 }
+
 .back .font-a-icons {
   margin-top: 25px;
 }
+
 .back .font-a-icons .icon-group {
   margin-top: 8px;
 }
+
 .back .font-a-icons span, .back .font-a-icons .link, .back .font-a-icons .fa, .back .font-a-icons a {
   color:    #192028;
 }
+
 .back .font-a-icons .fa {
   font-size: 18px;
 }
+
 .back .font-a-icons span, .back .font-a-icons a {
   font-size: 16px;
 }
+
 .back .font-a-icons a, .back .font-a-icons .website {
   text-decoration: none;
 }
+
 .back .font-a-icons a:hover, .back .font-a-icons .website:hover {
   color:    #192028;
 }
+
 .icon-group span{
   line-height: 2em;
 }
@@ -315,13 +307,14 @@ h3 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
 }
+
 .back .icon-box:hover {
   box-shadow: inset 0 50px 0 0     #192028;
   color: #fff;
   border: 2px solid     #192028;
 }
-
 /* /end */
+
 /* THE FLIP EFFECT */
 /* entire container, keeps perspective */
 .flip-container {
@@ -352,7 +345,7 @@ h3 {
 
 .front {
   z-index: 2;
-  /* firefox 31 */
+   firefox 31 
   transform: rotateY(0deg);
 }
 
@@ -379,5 +372,4 @@ h3 {
 .vertical.flip-container:hover .flipper {
   transform: rotateX(-180deg);
 }
-
 /* End Interactive bussines card */
