@@ -87,6 +87,7 @@ ul{
 .workBox h3 {
   font-family: 'Anton', sans-serif;
   font-size: 1.5em;
+  color:#FB592D;
 }
 
 .workBox p {
@@ -95,6 +96,20 @@ ul{
 
 .titleBox{
   padding-left: 0;
+}
+
+.workButton{
+  background-color: #FB592D;
+  color:#F5F1E4; 
+}
+
+.btn1{
+  margin-right: 1em;
+}
+
+.workButton:hover {
+  background-color: #192028;
+  color:#F5F1E4;
 }
  
 /* End Style Work Section */
@@ -415,3 +430,4 @@ box-shadow: 10px 10px 31px 0px rgba(77,74,77,0.42);
 .iconInfo a:hover{
   color: #192028;
 }
+/* End Style SmallContact */
