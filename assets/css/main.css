@@ -373,3 +373,45 @@ ul{
   transform: rotateX(-180deg);
 }
 /* End Interactive bussines card */
+
+/* Style SmallContact */
+
+.smallContact {
+  background-color: #FB592D;
+  color: #F5F1E4;
+  webkit-box-shadow: 10px 10px 31px 0px rgba(77,74,77,0.42);
+-moz-box-shadow: 10px 10px 31px 0px rgba(77,74,77,0.42);
+box-shadow: 10px 10px 31px 0px rgba(77,74,77,0.42);
+}
+
+.smallContact p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.smallContact hr{
+  border: 0.05em solid;
+  margin-bottom: 0.5em; 
+  color: #192028;
+  width: auto; 
+}
+
+.dataInfo{
+  font-family: 'Montserrat', sans-serif;
+  color:#F5F1E4;
+  font-size: 1em;
+  margin-bottom: 1em;
+  padding-left: 0;
+}
+
+.dataInfo a{
+  color: #F5F1E4;
+}
+.iconInfo a{
+  font-size: 2em;
+  color: #F5F1E4;
+  margin: 0.3em;
+}
+
+.iconInfo a:hover{
+  color: #192028;
+}
