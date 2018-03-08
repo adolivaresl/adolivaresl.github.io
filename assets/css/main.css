@@ -2,7 +2,8 @@
 body{
   margin:0;
   padding: 0;
-  width: 100%;  
+  width: 100%;
+  height: 100%;
 }
 
 /* Style Header */
@@ -45,6 +46,10 @@ ul{
 /* End Style Header */
 
 /* Style Work Section */
+#workSections{
+  height: 100%;
+}
+
 .works {
   background-color: #F5F1E4;
   background-attachment: fixed;
@@ -92,6 +97,7 @@ ul{
 
 .workBox p {
   font-family: 'Montserrat', sans-serif; 
+  text-align: justify;
 }
 
 .titleBox{
@@ -115,8 +121,14 @@ ul{
 /* End Style Work Section */
 
 /* Style About Section */
-.about {
+#aboutSections{
+  width: 100%;
+  height: 100vh;
   background-color: #FB592D;
+}
+
+.about {
+  
   color:#fff;
   font-family: 'Anton', sans-serif;
   padding-top: 3em;
@@ -137,11 +149,13 @@ ul{
 }
 
 .rowOfAbout {
-  padding-top: 3em;
+  padding-top: 6em;
   padding-bottom: 3em; 
+  vertical-align: middle !important;
 }
 
 .aboutBox {
+  margin-top:2em;
   background-color: #FB592D;
   border: 0.1em solid #fff; 
 }
@@ -160,8 +174,13 @@ ul{
 /* End Style About Section */
 
 /* Style Tools Section */
-.tools {
+#toolSection{
+  width: 100%;
+  height: 100vh;
   background-color: #192028;
+}
+
+.tools {  
   color: #FB592D;
   font-family: 'Anton', sans-serif;
   padding-top: 3em;
@@ -184,11 +203,11 @@ ul{
 }
 
 .tools i{
-  font-size: 4em;
+  font-size: 5em;
 }
 
 .iconBox{
-  margin-top: 1.5em;
+  margin-top: 4em;
 }
 
 .rowIconBoxF{
@@ -201,8 +220,13 @@ ul{
 /* End Style Tools Section */
 
 /* Style Contact Section */
-.contact{
+#contactSections{
+  width: 100%;
+  height: 100vh;
   background-color: #F5F1E4;
+}
+
+.contact{  
   text-align: left;
   font-family: 'Anton', sans-serif;
   padding-top: 3em;
