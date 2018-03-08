@@ -46,9 +46,6 @@ ul{
 /* End Style Header */
 
 /* Style Work Section */
-#workSections{
-  height: 100%;
-}
 
 .works {
   background-color: #F5F1E4;
@@ -127,8 +124,7 @@ ul{
   background-color: #FB592D;
 }
 
-.about {
-  
+.about { 
   color:#fff;
   font-family: 'Anton', sans-serif;
   padding-top: 3em;
@@ -162,7 +158,7 @@ ul{
 
 .aboutBox p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.1em;
+  font-size: 1.5em;
   text-align: justify; 
 }
 
