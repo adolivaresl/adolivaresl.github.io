@@ -1,6 +1,6 @@
-$(document).ready(function(){
+jQuery(document).ready(function(){
     $(".oculto").hide();              
-      $(".inf").hover(function(){
+      $(".inf").click(function(){
             var nodo = $(this).attr("href");  
    
             if ($(nodo).is(":visible")){
