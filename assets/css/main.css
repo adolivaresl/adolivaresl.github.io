@@ -46,7 +46,6 @@ ul{
 /* End Style Header */
 
 /* Style Work Section */
-
 .works {
   background-color: #F5F1E4;
   background-attachment: fixed;
@@ -145,7 +144,7 @@ ul{
 }
 
 .rowOfAbout {
-  padding-top: 6em;
+  padding-top: 3.5em;
   padding-bottom: 3em; 
   vertical-align: middle !important;
 }
@@ -158,7 +157,7 @@ ul{
 
 .aboutBox p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-align: justify; 
 }
 
@@ -195,7 +194,7 @@ ul{
   border: 0.4em solid;
   width: 2em;
   margin: 0; 
-    color: #fff;
+  color: #fff;
 }
 
 .tools i{
