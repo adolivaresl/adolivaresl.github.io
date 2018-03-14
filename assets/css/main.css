@@ -379,7 +379,7 @@ ul{
 
 .front {
   z-index: 2;
-   firefox 31 
+   firefox: 31; 
   transform: rotateY(0deg);
 }
 
@@ -413,7 +413,7 @@ ul{
 .smallContact {
   background-color: #FB592D;
   color: #F5F1E4;
-  webkit-box-shadow: 10px 10px 31px 0px rgba(77,74,77,0.42);
+  -webkit-box-shadow: 10px 10px 31px 0px rgba(77,74,77,0.42);
 -moz-box-shadow: 10px 10px 31px 0px rgba(77,74,77,0.42);
 box-shadow: 10px 10px 31px 0px rgba(77,74,77,0.42);
 }
