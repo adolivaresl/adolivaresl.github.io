@@ -492,3 +492,7 @@ box-shadow: 10px 10px 31px 0px rgba(77,74,77,0.42);
   color: #fff;
   top: 5px;
 }
+
+#return-to-top i{
+  color:#fff;
+}
