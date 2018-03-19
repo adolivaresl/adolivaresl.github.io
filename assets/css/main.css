@@ -154,7 +154,7 @@ ul{
 }
 
 .about hr {
-  border: 0.4em solid;
+  border: 0.4em solid #fff;
   width: 2em;
   margin: 0; 
 }
@@ -190,17 +190,20 @@ ul{
 /* Style Tools Section */
 #toolSection{
   width: 100%;
-  height: 100vh;
+  max-height: auto;
   background-color: #192028;
 }
 
 .tools {  
+  background-attachment: fixed;
   color: #FB592D;
   font-family: 'Anton', sans-serif;
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 6em;
+  padding-bottom: 6.2em;
   margin: 0; 
   text-align: left;
+  display: flex;
+  align-items: center;
 }
 
 .tools h4 {
@@ -210,10 +213,9 @@ ul{
 }
 
 .tools hr {
-  border: 0.4em solid;
+  border: 0.4em solid #fff;
   width: 2em;
-  margin: 0; 
-  color: #fff;
+  margin: 0;
 }
 
 .tools i{
@@ -222,6 +224,7 @@ ul{
 
 .iconBox{
   margin-top: 4em;
+  padding: 0 3em;
 }
 
 .rowIconBoxF{
