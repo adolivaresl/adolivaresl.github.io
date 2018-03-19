@@ -46,6 +46,11 @@ ul{
 /* End Style Header */
 
 /* Style Work Section */
+#workSections{
+  width: 100%;
+  height: 100vh;
+  background-color: #F5F1E4;
+}
 .works {
   background-color: #F5F1E4;
   background-attachment: fixed;
