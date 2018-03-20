@@ -6,6 +6,10 @@ body{
   height: 100%;
 }
 
+.no-magin{
+  margin:0;
+}
+
 /* Style Header */
 ul{
   list-style: none;
@@ -50,6 +54,8 @@ ul{
   width: 100%;
   max-height: auto;
   background-color: #F5F1E4;
+  display: flex;
+  align-items: center;
 }
 
 .works {
@@ -59,10 +65,8 @@ ul{
   font-family: 'Anton', sans-serif;
   padding-top: 6em;
   padding-bottom: 6.2em; 
-  margin-right:0;
-  display: flex;
-  align-items: center;
-  
+  padding-left: 2em;
+  margin-right:0;  
 }
 
 .works h4, .skills h4{
@@ -87,7 +91,6 @@ ul{
 .rowOfWorks {
   padding-top: 3em;
   padding-bottom: 3em; 
-  padding-left: 1.5em;
 }
 
 .workBox {
@@ -133,6 +136,8 @@ ul{
   width: 100%;
   max-height: auto;
   background-color: #FB592D;
+  display: flex;
+  align-items: center;
 }
 
 .about { 
@@ -140,11 +145,10 @@ ul{
   color:#fff;
   font-family: 'Anton', sans-serif;
   padding-top: 6em;
-  padding-bottom: 6.2em;  
+  padding-bottom: 6.2em; 
+  padding-left: 2em; 
   text-align: left;
   margin-right:0;
-  display: flex;
-  align-items: center;
 }
 
 .about h4 {
@@ -192,6 +196,8 @@ ul{
   width: 100%;
   max-height: auto;
   background-color: #192028;
+  display: flex;
+  align-items: center;
 }
 
 .tools {  
@@ -199,11 +205,11 @@ ul{
   color: #FB592D;
   font-family: 'Anton', sans-serif;
   padding-top: 6em;
-  padding-bottom: 6.2em;
+  padding-bottom: 9.2em;
+  padding-left: 2em;
   margin: 0; 
   text-align: left;
-  display: flex;
-  align-items: center;
+  
 }
 
 .tools h4 {
@@ -224,7 +230,7 @@ ul{
 
 .iconBox{
   margin-top: 4em;
-  padding: 0 3em;
+  padding: 0 4em;
 }
 
 .rowIconBoxF{
@@ -242,17 +248,19 @@ ul{
   width: 100%;
   max-height: auto;
   background-color: #F5F1E4;
+  display: flex;
+  align-items: center;
 }
 
 .contact{ 
-  background-attachment: fixed; 
-  text-align: left;
+  background-attachment: fixed;
+  color: #192028;
   font-family: 'Anton', sans-serif;
   padding-top: 6em;
   padding-bottom: 6.2em;
-  margin-right:0;
-  display: flex;
-  align-items: center;
+  padding-left: 1em;
+  margin: 0; 
+  text-align: left;  
 }
 
 .contact h4{
@@ -442,10 +450,12 @@ ul{
   -webkit-box-shadow: 10px 10px 31px 0px rgba(77,74,77,0.42);
 -moz-box-shadow: 10px 10px 31px 0px rgba(77,74,77,0.42);
 box-shadow: 10px 10px 31px 0px rgba(77,74,77,0.42);
+margin-left:1em;
 }
 
 .smallContact p{
   font-family: 'Montserrat', sans-serif;
+  font-size: inherit;
 }
 
 .smallContact hr{
@@ -458,14 +468,11 @@ box-shadow: 10px 10px 31px 0px rgba(77,74,77,0.42);
 .dataInfo{
   font-family: 'Montserrat', sans-serif;
   color:#F5F1E4;
-  font-size: 1em;
+  font-size: inherit;
   margin-bottom: 1em;
   padding-left: 0;
 }
 
-.dataInfo a{
-  color: #F5F1E4;
-}
 .iconInfo a{
   font-size: 2em;
   color: #F5F1E4;
