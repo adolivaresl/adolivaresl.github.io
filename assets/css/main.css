@@ -181,7 +181,7 @@ ul{
 .aboutBox p {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2em;
-  text-align: justify; 
+  text-align: left; 
 }
 
 .perfilBox {
@@ -225,12 +225,11 @@ ul{
 }
 
 .tools i{
-  font-size: 5em;
+  font-size: 4em;
 }
 
 .iconBox{
-  margin-top: 4em;
-  padding: 0 4em;
+  padding:3em 2em 3em 1em;
 }
 
 .rowIconBoxF{
