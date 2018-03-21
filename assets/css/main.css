@@ -206,9 +206,10 @@ ul{
   font-family: 'Anton', sans-serif;
   padding-top: 6em;
   padding-bottom: 9.2em;
-  padding-left: 2em;
+  padding-left: 1.3em;
   margin: 0; 
   text-align: left;
+  align-items: center;
   
 }
 
@@ -229,7 +230,8 @@ ul{
 }
 
 .iconBox{
-  padding:3em 2em 3em 1em;
+  padding:3em 3em 3em 2em;
+  text-align: center;
 }
 
 .rowIconBoxF{
@@ -467,7 +469,7 @@ margin-left:1em;
 .dataInfo{
   font-family: 'Montserrat', sans-serif;
   color:#F5F1E4;
-  font-size: inherit;
+  font-size: 0.9em;
   margin-bottom: 1em;
   padding-left: 0;
 }
